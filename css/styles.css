@@ -533,6 +533,7 @@ width: 264px;
 height: 40px;
 padding-left: 16px;
 border: 1px solid #FFFFFF;
+opacity: 0.3;
 background-color: transparent;
 font-size: 12px;
 line-height: 1.5;
@@ -545,7 +546,7 @@ display: block;
 max-width: 100%;
 }
 .footer-subscribe-input::placeholder {
-  color: #FFFFFF;
+  color: #rgba(255, 255, 255, 0.6);
 }
 .footer-subscribe-button {
 font-family: "Roboto", sans-serif;
@@ -729,7 +730,6 @@ background: #404BBF;
   transition: transform var(--transition-effect);
   width: 95%;
   max-width: 408px;
-  height: 95%;
   min-height: 584px;
   overflow: scroll;
   background-color: #fcfcfc;
